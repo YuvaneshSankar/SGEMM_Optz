@@ -79,6 +79,8 @@ int main(){
         cudaDeviceSynchronize();
     }
 
+    cudaMemcpy(h_C, d_C, size_C, cudaMemcpyDeviceToHost);
+
     // Free memory
     free(h_A);
     free(h_B);
