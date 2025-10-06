@@ -2,6 +2,9 @@
 Fast CUDA matrix multiplication from scratch with increasing  optimization levels
 
 
+#Note
+There are some many optimization things that i have coded and done which are not mentioned in the below table.
+
 
 
 ## GFLOPs at matrix size 4096×4096
